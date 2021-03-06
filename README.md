@@ -13,7 +13,7 @@ outage earlier this week I chose to implement it myself in python to get the ran
 
 ## Setup
 Get a Miniconda base install from https://docs.conda.io/en/latest/miniconda.html first then setup the environment using:
-```python
+```bash
 conda env create -n pyslackrandomcoffee -f pyslackrandomcoffee.yml
 conda activate pyslackrandomcoffee
 ```
