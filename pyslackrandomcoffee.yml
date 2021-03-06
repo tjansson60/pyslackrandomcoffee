@@ -1,0 +1,9 @@
+name: pyslackrandomcoffee
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.2
+  - pip
+  - pip:
+      - slack_sdk==3.4.2 # Send messages to slack channels and users
