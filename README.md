@@ -14,5 +14,5 @@ Get a Miniconda base install from https://docs.conda.io/en/latest/miniconda.html
 conda env create -n pyslackrandomcoffee -f pyslackrandomcoffee.yml
 conda activate pyslackrandomcoffee
 ```
-Make sure you have a valid slack API token in the environment called: `SLACK_API_TOKEN` with appropriate scopes such as
+Make sure you have a valid slack API token see (https://api.slack.com/apps/) in the environment called: `SLACK_API_TOKEN` with appropriate scopes such as
 `channel:history`, ` channels:read`, `chat:write`, `users:read` etc. 
